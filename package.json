@@ -1,0 +1,25 @@
+{
+  "name": "@gdjiami/eslint-config",
+  "description": "mygzb frontend eslint config",
+  "version": "0.1.0",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": "https://github.com/GDJiaMi/eslint-config-jm.git",
+  "author": "carney520 <carney520@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+        "babel-eslint": "^10.0.3",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "confusing-browser-globals": "^1.0.8"
+  }
+}
